@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ComAr"
+title                    : "Seokjun Choi"
 title_separator          : "-"
 subtitle                 : ""
-name                     : "Geonung Kim"
+name                     : "Seokjun Choi"
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,24 +101,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "Geonung Kim"
-  avatar           : "/assets/images/me2.jpg"
+  name             : "Seokjun Choi"
+  avatar           : "/assets/images/seokjun.png"
   bio              : "Integrated M.S & Ph.D. Student, Computer Graphics Lab, POSTECH"
   # location         : "Republic of Korea"
   # email            : "saywooong@gmail.com"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/KIMGEONUNG"
+      url: "https://github.com/MichaelCSJ"
     - label: "Linkedin"
       icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/kimgeonung"
-    - label: "Scholar"
-      icon: "fab fa-google"
-      url: "https://scholar.google.com/citations?user=UgL9yfwAAAAJ&hl=en"
+      url: "https://www.linkedin.com/in/seokjun-choi-734587190/"
+    # - label: "Scholar"
+    #   icon: "fab fa-google"
+    #   url: "https://scholar.google.com/citations?user=UgL9yfwAAAAJ&hl=en"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:saywooong@gmail.com"
+      url: "mailto:cmichael231117@gmail.com"
 
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -135,7 +135,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/KIMGEONUNG"
+      url: "https://github.com/MichaelCSJ"
 
 
 # Reading Files
