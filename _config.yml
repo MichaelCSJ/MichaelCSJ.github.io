@@ -263,9 +263,12 @@ compress_html:
 
 # Collections
 collections:
-  About:
-    output: true
-    permalink: /:collection/:path/
+  # About:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # News:
+  #   output: true
+  #   permalink: /:collection/:path/
   # Review:
   #   output: true
   #   permalink: /:collection/:path/
