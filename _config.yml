@@ -263,6 +263,9 @@ compress_html:
 
 # Collections
 collections:
+  About:
+    output: true
+    permalink: /:collection/:path/
   # Review:
   #   output: true
   #   permalink: /:collection/:path/
