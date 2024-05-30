@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "CV"
+    url: /assets/cv/cv_kimgeonung.pdf
+  # - title: "Posts"
+  #   url: /collection-archive/
+  - title: "Artworks"
+    url: /artworks/

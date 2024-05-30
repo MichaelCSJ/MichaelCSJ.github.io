@@ -1,0 +1,43 @@
+
+{% assign title = post.title %}
+{% assign author = post.author %}
+{% assign publication = post.publication %}
+
+{% assign teaser = post.header.teaser %}
+{% assign url_page = post.header.page %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+    <article class="archive__item">
+        <table class="archive_pub">
+            <tbody>
+
+            <tr>
+                <td>
+                    <div class="archive_teaser">
+                        <figure>
+                          {% if url_page %}
+                            <a href={{ url_page }} target="_blank">
+                          {% endif %}
+                                <img class="blur-up ls-is-cached lazyloaded dropshadow" src={{ teaser }}>
+                          {% if url_page %}
+                             </a>
+                          {% endif %}
+                        </figure>
+                    <div>
+                </td>
+
+                <td class="table_pub">
+                    <div class="info_pub">
+                        <h2 class="archive__item-title_conf" itemprop="headline">
+                            <strong>{{ title }}</strong>
+                        </h2>
+                        <p class="info_author">{{ author }}</p>
+                        <p class="info_last"> {{ publication }} </p>
+                    </div>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </article>
+</div>
