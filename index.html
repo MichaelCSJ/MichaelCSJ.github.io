@@ -10,20 +10,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
   <style>
+    :root {
+      --accent-color: #C80150;
+    }
     body {
       padding-top: 3.25rem;
       color: #2c3e50;
       font-size: 1rem;
     }
     a {
-      color: #3273dc;
+      color: var(--accent-color);
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
     }
+    .navbar-item:hover {
+      background-color: rgba(200, 1, 80, 0.05);
+    }
     .icon.is-small svg {
-      height: 0.85em;
+      height: 1em;
     }
     footer {
       text-align: center;
@@ -40,7 +46,7 @@
   <nav class="navbar is-white is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="container is-max-desktop">
       <div class="navbar-brand">
-        <a class="navbar-item" href="#" style="font-weight: bold; font-size: 1.1rem;">
+        <a class="navbar-item" href="#" style="font-weight: bold; font-size: 1.1rem; color: var(--accent-color);">
           Seokjun Choi
         </a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
@@ -61,6 +67,7 @@
       </div>
     </div>
   </nav>
+
 
 
 
